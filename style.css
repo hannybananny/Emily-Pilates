@@ -1,5 +1,9 @@
+html {
+    background: url(https://image.shutterstock.com/image-photo/lake-black-white-1-600w-155701472.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
 body {
-    background-image: url("https://image.shutterstock.com/image-photo/lake-black-white-1-600w-155701472.jpg");
     background: black;
     font-family: 'Brush script MT', cursive;
 }
