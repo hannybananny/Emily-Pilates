@@ -14,11 +14,14 @@ body {
 h1 {
     font-size: 55px;
     font-weight: bold;
+    text-indent: 10%;
+    line-height: normal;
 }
 
 h2 {
     font-size: 25px;
     font-weight: bold;
+    text-indent: 10%;
 }
 
 .blue {
@@ -26,9 +29,11 @@ h2 {
 }
 
 ol {
-    font-size: 20px
+    font-size: 20px;
+    text-indent: 10%;
 }
 
 a {
     color: white;
+    text-align: center;
 }
