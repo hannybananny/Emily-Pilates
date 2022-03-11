@@ -1,39 +1,28 @@
-html {
-    background: url(https://cdn.pixabay.com/photo/2021/05/23/20/08/forest-6277232_1280.png) no-repeat center center fixed;
-    background-size: cover;
-}
-
-body {
-    font-family: Garamond;
-    color: white;
-}
 .header {
     background-color: black;
-    border-radius: 5px;
-    display: block;
-    margin:auto;
+    font-family: "Comic Sans MS", cursive;
 }
 
 h1 {
     font-size: 55px;
     font-weight: bold;
-    line-height: normal;
+    color: white;
 }
 
 h2 {
     font-size: 25px;
     font-weight: bold;
+    color:#a0dfe0;
+    text-indent: 15%;
 }
 
-.blue {
-    color: #00CED1;
-}
 
-ol {
+ul {
     font-size: 20px;
 }
 
 a {
+    font-size: medium;
     color: white;
     align-items: center;
 }
