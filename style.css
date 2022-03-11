@@ -1,6 +1,21 @@
-.header {
-    background-color: black;
-    font-family: "Comic Sans MS", cursive;
+body {
+    font-family: Garamond;
+    background-color: #1abc9c;
+}
+
+
+.circle {
+    float: left;
+    margin-top: 15px;
+    width: 200px;
+    height: 200px;
+    shape-outside: circle(50% at 30%);
+    clip-path: circle(50% at 0%);
+    background: black;
+}
+
+.intro {
+  border-bottom: double;
 }
 
 h1 {
@@ -10,19 +25,55 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
-    color:#a0dfe0;
-    text-indent: 15%;
+    color:#031213;
+    text-align: center;
+    text-indent: 20%;
+    font-style: italic;
 }
 
 
-ul {
-    font-size: 20px;
+h3 {
+    color: white;
+    font-weight: bold;
+    line-height: 10%;
+    margin-bottom: 0%;
 }
 
-a {
+.link {
     font-size: medium;
     color: white;
     align-items: center;
+}
+
+.list {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.paragraph1 {
+    width: 1000px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.white {
+    color: white;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-weight: bolder;
+    font-variant-caps: petite-caps;
+}
+
+.center {
+    text-align: center;
+}
+.toolbox {
+    text-align: center;
+    word-spacing: 25px;
+    font-weight: bold;
 }
