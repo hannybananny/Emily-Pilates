@@ -1,28 +1,28 @@
 html {
-    background: url(https://image.shutterstock.com/z/stock-photo-metallic-ink-fluid-black-colorful-backdrop-reflective-batik-luxurious-illustration-white-cream-1920375443.jpg) no-repeat center center fixed;
+    background: url(https://cdn.pixabay.com/photo/2021/05/23/20/08/forest-6277232_1280.png) no-repeat center center fixed;
     background-size: cover;
 }
 
 body {
     display: block;
+    margin: auto;
     background: black;
-    font-family: 'Brush script MT', cursive;
+    font-family: Garamond;
     color: white;
-    width: 800px;
+    border-radius: 25%;
 }
 
 h1 {
     font-size: 55px;
+    font-weight: bold;
 }
 
 h2 {
-    font-size: 40px;
-}
-
-h3 {
     font-size: 20px;
+    font-weight: bold;
 }
 
-.word-color {
+
+.blue {
     color: #00CED1;
 }
